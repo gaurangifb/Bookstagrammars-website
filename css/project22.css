@@ -1,0 +1,202 @@
+* {
+	margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header, .fixed-bg {
+	width: 100%; height: 1000vh;
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('../images/bokk.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+ }
+
+
+.navbar {
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	background: rgba(0,0,0,0.24);
+    width:100%;
+    
+}
+
+.navbar ul {
+	list-style: none;
+	margin-top: 10px;
+	margin-right: -10px;
+	font-size: 22px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	font-family: 'Comfortaa', cursive;	
+}
+
+.navbar li:first-child {
+		font-family: 'Satisfy', cursive;
+		margin-right: auto;
+		margin-left: 40px;
+		font-size: 60px;
+}
+
+.navbar li a {
+	text-decoration: none;
+	color: white;
+	margin-right: 2em;
+	position: relative; 
+	transition: all ease-in-out 250ms;
+
+}
+
+
+.navbar li a::after {
+	content: '';
+	position: absolute;
+	display: block;
+	height: 0.3em;
+	width: 0%;
+	background-color: #ADF42B;
+	bottom: -1em; 
+	transition: all ease-in-out 250ms;
+	
+}
+
+
+.navbar li:first-child a::after {
+	display: none;
+	transition: all ease-in-out 250ms;
+
+}
+
+.navbar a:hover::after{
+	width: 100%;
+}
+
+.navbar li a:hover{
+	color:#ADF42B;
+}
+
+
+
+
+
+/****************  INFO TEXT  *********/
+
+.scrolling {
+   top: 100px;
+   bottom: 0; 
+   width: 100%; 
+   position: fixed; 
+   overflow: scroll;
+}
+
+/******ALL BOOOK RELATED....   **********/
+
+h1.maininfo {
+	position: absolute;
+	transform: translate(2%, -106%);
+	top: 50%;
+	float: left;
+	margin: 0;
+	padding: 0;
+	color: #ebf6f7 ;
+	font-size:60px;
+	font-family: 'Comfortaa', cursive;	
+	font-weight: normal;
+	font-stretch: semi-expanded;
+	text-shadow: 5px 2px 10px black;
+}
+
+
+
+
+
+/******Vertical line*********/
+
+div.vl {
+	border-left: 6px solid white;
+	position: relative;
+  	height: 115px;
+	top: 265px;
+  	
+}
+
+/************************/
+
+
+/************CHANGING QUOTES ********/
+
+.change_content:after {
+    content: '';
+    animation: changequote 33s infinite ease-in-out;
+    transform: translate(1%, 130%);
+	float: left;
+	margin-top: 10px;
+	font-size: 46px;
+	font-family: 'Poiret One', cursive;
+	font-weight: normal;
+	color:  #ADF42B;
+	text-shadow: 5px 2px 10px black;
+	background-image: linear-gradient(to right, rgba(0,0,0,0.9), rgba(0,0,0,0.3));
+}
+
+
+.change_content {
+	display: inline-block;
+	position: relative;
+	
+}
+
+@keyframes changequote {
+	0% {content: "How wonderful it is that nobody need wait a single moment before starting to improve the world.";}
+	10% { content: "A reader lives a thousand lives before he dies . . . The man who never reads lives only one."; }
+	20% { content: "If you would tell me the heart of a man, tell me not what he reads, but what he rereads.";}
+	30% { content: "There's different kind of peace when you are alone; delusion of thoughts, red wine and subtle breathing."; }
+	40% { content: "The reading of all good books is like a conversation with the finest minds of past centuries." ;}
+	50% {content: "Let us read, and let us dance; these two amusements will never do any harm to the world.";}
+    60% {content: "If there's a book that you want to read, but it hasn't been written yet, then you must write it.";}
+	70% {content: "You know you've read a good book when you turn the last page and feel a little as if you have lost a friend.";}
+	80% {content: "Books are the plane, and the train, and the road. They are the destination, and the journey. They are home.";}
+	90% {content: "Books are not made for furniture, but there is nothing else that so beautifully furnishes a house.";}
+	100% {content: "You are today who you’ll be in five years except for the people you meet and the books you read.";}
+} 
+
+/******************************/
+
+.change_names:after {
+    content: '';
+    animation: changenames 33s infinite ease-in-out;
+    transform: translate(4%, 290%);
+	float: left;
+	font-size: 40px;
+	font-family: 'Poiret One', cursive;
+	font-weight: normal;
+	color: #ebf6f7 ;
+	text-shadow: 5px 2px 10px black;
+	background-image: linear-gradient(to right, rgba(0,0,0,0.9), rgba(0,0,0,0.3));
+}
+
+.change_names {
+	display: inline-block;
+	position: relative;
+
+}
+
+@keyframes changenames {
+	0% {content: "- ANNE FRANK";}
+	10% { content: "- R.R.MARTIN"; }
+	20% { content: "- FRANCOIS MAURIAC";}
+	30% { content: "- UNKNOWN"; }
+	40% { content: "- RENE DESCARTES" ;}
+	50% {content: "- VOLTAIRE";}
+    60% {content: "- TONI MORRISON";}
+	70% {content: "- PAUL SWEENEY";}
+	80% {content: "- ANNA QUINDLEN";}
+	90% {content: "- HENRY WARD BEECHER";}
+	100% {content: "- CHARLIE TREMENDOUS JONES";}
+} 
+
+/******************************/
+
+

@@ -1,0 +1,81 @@
+* {
+	margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+	width: 100%; height: 100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('../images/bokk.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+ }
+
+
+ .navbar {
+
+ 	width: 100vw;
+ 	height: 16vh;
+ 	background:  rgba(0,0,0,0.24);
+ 	overflow: hidden;
+	position: fixed;
+	top: 0;
+}
+
+.navbar ul {
+	list-style: none;
+	margin: 10px;
+	margin-right: -10px;
+	font-size: 30px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 1em 0;
+	
+}
+
+.navbar li a {
+	text-decoration: none;
+	color: white;
+	margin-right: 2em;
+	position: relative; 
+		transition: all ease-in-out 250ms;
+
+}
+
+
+.navbar li a::after {
+	content: '';
+	position: absolute;
+	display: block;
+	height: 0.3em;
+	width: 0%;
+	background-color: #ADF42B;
+	bottom: -1em; 
+	transition: all ease-in-out 250ms;
+	
+}
+
+
+.navbar li:first-child a::after {
+	display: none;
+	transition: all ease-in-out 250ms;
+
+}
+
+.navbar li:first-child {
+	margin-right: auto;
+	margin-left: 1em;
+}
+
+
+.navbar a:hover::after{
+	width: 100%;
+}
+
+.navbar li a:hover{
+	color:#ADF42B;
+}
+
+
