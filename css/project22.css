@@ -19,7 +19,6 @@ header, .fixed-bg {
 	top: 0;
 	background: rgba(0,0,0,0.24);
     width:100%;
-    
 }
 
 .navbar ul {
@@ -34,10 +33,10 @@ header, .fixed-bg {
 }
 
 .navbar li:first-child {
-		font-family: 'Satisfy', cursive;
-		margin-right: auto;
-		margin-left: 40px;
-		font-size: 60px;
+    font-family: 'Satisfy', cursive;
+    margin-right: auto;
+    margin-left: 40px;
+    font-size: 60px;
 }
 
 .navbar li a {
@@ -46,7 +45,6 @@ header, .fixed-bg {
 	margin-right: 2em;
 	position: relative; 
 	transition: all ease-in-out 250ms;
-
 }
 
 
@@ -59,14 +57,11 @@ header, .fixed-bg {
 	background-color: #ADF42B;
 	bottom: -1em; 
 	transition: all ease-in-out 250ms;
-	
 }
-
 
 .navbar li:first-child a::after {
 	display: none;
 	transition: all ease-in-out 250ms;
-
 }
 
 .navbar a:hover::after{
@@ -76,10 +71,6 @@ header, .fixed-bg {
 .navbar li a:hover{
 	color:#ADF42B;
 }
-
-
-
-
 
 /****************  INFO TEXT  *********/
 
@@ -108,10 +99,6 @@ h1.maininfo {
 	text-shadow: 5px 2px 10px black;
 }
 
-
-
-
-
 /******Vertical line*********/
 
 div.vl {
@@ -119,7 +106,6 @@ div.vl {
 	position: relative;
   	height: 115px;
 	top: 265px;
-  	
 }
 
 /************************/
@@ -145,7 +131,6 @@ div.vl {
 .change_content {
 	display: inline-block;
 	position: relative;
-	
 }
 
 @keyframes changequote {
@@ -180,7 +165,6 @@ div.vl {
 .change_names {
 	display: inline-block;
 	position: relative;
-
 }
 
 @keyframes changenames {
