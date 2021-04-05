@@ -19,7 +19,6 @@ header, .fixed-bg {
 	top: 0;
 	background: rgba(0,0,0,0.24);
     width:100%;
-    
 }
 
 .navbar ul {
@@ -46,7 +45,6 @@ header, .fixed-bg {
 	margin-right: 2em;
 	position: relative; 
 	transition: all ease-in-out 250ms;
-
 }
 
 
@@ -59,14 +57,12 @@ header, .fixed-bg {
 	background-color: #ADF42B;
 	bottom: -1em; 
 	transition: all ease-in-out 250ms;
-	
 }
 
 
 .navbar li:first-child a::after {
 	display: none;
 	transition: all ease-in-out 250ms;
-
 }
 
 .navbar a:hover::after{
@@ -76,10 +72,6 @@ header, .fixed-bg {
 .navbar li a:hover{
 	color:#ADF42B;
 }
-
-
-
-
 
 /****************  INFO TEXT  *********/
 
@@ -93,7 +85,6 @@ header, .fixed-bg {
 
 
 /*********/
-
 
 #mainblock {
 	background: rgba(0,0,0,0.24);
@@ -152,6 +143,6 @@ select.inputfield {
 	width: 100%;
 	background: #3a3a46;
 	color: white;
-	font-family: arial black:
+	font-family: arial black;
 	border: 1px solid #3a3a46;
 }
