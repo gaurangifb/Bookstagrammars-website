@@ -40,108 +40,57 @@
 	flex-direction: row;
 }
 
-
-
-
-
-<img src="images/diary.jpg" class="book">          <!-------book1------------> 
-			<a href= "https://en.wikipedia.org/wiki/The_Diary_of_a_Young_Girl" class="booklink"> </a>
-		
-	    	<img src="images/book1.jpg" class="book1">         <!-------book2------------>
-			<a href="https://en.wikipedia.org/wiki/A_Thousand_Splendid_Suns" class="booklink"> </a>
-		
-			<img src="images/kafka.jpg" class="book2">         <!-------book3------------>
-			<a href="https://en.wikipedia.org/wiki/A_Thousand_Splendid_Suns" class="booklink"> </a>
-
-
-			<div class="types">
-				<p class="genre1" > Fiction </p> 
-				<p class="genre2"> Non-fiction </p> 
-				<p class="genre3"> Drama </p> 
-                <p class="genre4"> Suspense </p> 
-                <p class="genre5"> Thriller </p> 
-                <p class="genre6"> Science </p> 
-                <p class="genre7"> History </p> 
-	 			<p class="genre8"> Horror </p> 
-	 </div>			
-
-
-
 a:hover {
 	border: 1px;
-
 }
 
 /* Bounce To Right */
 .hvr-bounce-to-right {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0,0,0,0.7);
-  position: relative;
-  -webkit-transition-property: color;
-  transition-property: color;
-  -webkit-transition-duration: 0.5s;
-  transition-duration: 0.5s;              
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0,0,0,0.7);
+    position: relative;
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;              
 }
+
 .hvr-bounce-to-right:before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: #000;
-  -webkit-transform: scaleX(0);
-  transform: scaleX(0);
-  -webkit-transform-origin: 0 50%;
-  transform-origin: 0 50%;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-  -webkit-transition-duration: 0.5s;
-  transition-duration: 0.5s;
-  -webkit-transition-timing-function: ease-out;
-  transition-timing-function: ease-out;
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #000;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
 }
+
 .hvr-bounce-to-right:hover, .hvr-bounce-to-right:focus, .hvr-bounce-to-right:active {
-  color: white;
+    color: white;
 }
+
 .hvr-bounce-to-right:hover:before, .hvr-bounce-to-right:focus:before, .hvr-bounce-to-right:active:before {
-  -webkit-transform: scaleX(1);
-  transform: scaleX(1);
-  -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
-  transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);                    
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+    transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);                    
 }                      
 
-
-
-
-<header>
-
-		<nav class="navbar"> 
-	 		<div class="logo"> <h1> <a href="index.html" class="mainpage" > Bookstagrammers  </a></h1> </div>
-
-	 		<div class="menu">
-	            <a href="contactus.html" >  ContactUs </a> 
-				<a href="aboutus.html"> CONTENT </a> 
-                <a href="galley.html" >  GALLERY </a>
-                <a href="content.html">  HOME </a> 
-			</div>
-		</nav>
-	
-	</header>
-
-
-
-
-
-
-
-
 .mainpage  {
-	
 	height: 90px;
 	width: auto;
 	float: left;
@@ -167,11 +116,11 @@ a:hover {
 	transition: all ease-in-out 250ms;
 }
 
-.mainpage a:hover::after{
+.mainpage a:hover::after {
 	width:100%;
 }
 
-.mainpage a:hover{
+.mainpage a:hover {
 	color: #ADF42B;
 }
 
@@ -188,7 +137,6 @@ nav .menu {
 	margin-right: 20px;
 	text-decoration: none;
 	word-spacing: 80px;
-	
 }
 
 .menu a{                          
@@ -199,7 +147,6 @@ nav .menu {
 	padding: 9px 20px;
 	text-decoration: none;
 	font-size: 25px;
-	
 }
 
 .menu a::after {
@@ -213,11 +160,11 @@ nav .menu {
 	transition: all ease-in-out 250ms;
 }
 
-.menu a:hover::after{
+.menu a:hover::after {
 	width:100%;
 }
 
-.menu a:hover{
+.menu a:hover {
 	color: #ADF42B;
 }
 
@@ -227,25 +174,7 @@ nav .menu {
 	top: 0;
 	background: rgba(0,0,0,0.24);
     width:100%;
-    
 }
-
-
-
-/*********** QUOTES SECTION ***************/
-
-			<div>    <!-- first quotee  ANNE FRANK -->
-				<section> <h1 class="firstquote"> I don't think of all the misery, 
-				but of the beauty that still remains. </h1><h2 class="name"> -Anne Frank </h2> </section>
-			</div>
-
-			<div>            <!-- SECOND QUOTE --> 
-				<section class="quote11"> <h1> "A reader lives a thousand lives before he dies . . .           
-				The man who never reads lives only one.” </h1>   
-				<h2 class="name1"> R.R.Martin </h2>  </section>
-			</div>
-
-
 
 /********************************************** CSS SECTION QUOTES ***********************************/
 
