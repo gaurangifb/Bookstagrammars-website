@@ -14,8 +14,7 @@ header {
 
 
  .navbar {
-
- 	width: 100vw;
+    width: 100vw;
  	height: 16vh;
  	background:  rgba(0,0,0,0.24);
  	overflow: hidden;
@@ -32,7 +31,6 @@ header {
 	justify-content: flex-end;
 	align-items: center;
 	padding: 1em 0;
-	
 }
 
 .navbar li a {
@@ -40,10 +38,8 @@ header {
 	color: white;
 	margin-right: 2em;
 	position: relative; 
-		transition: all ease-in-out 250ms;
-
+	transition: all ease-in-out 250ms;
 }
-
 
 .navbar li a::after {
 	content: '';
@@ -54,21 +50,18 @@ header {
 	background-color: #ADF42B;
 	bottom: -1em; 
 	transition: all ease-in-out 250ms;
-	
 }
 
 
 .navbar li:first-child a::after {
 	display: none;
 	transition: all ease-in-out 250ms;
-
 }
 
 .navbar li:first-child {
 	margin-right: auto;
 	margin-left: 1em;
 }
-
 
 .navbar a:hover::after{
 	width: 100%;
